@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--about myself-->
+
+<users>
+	<name>Gasanova Ramila Magammedovna</name>
+	<age>29</age>
+	<pets>1cat</pets>
+	<salary>1000$</salary>
+</users>
