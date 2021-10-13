@@ -4,3 +4,10 @@
   "cat": 1,
   "salary": "1000$"
 }
+{
+  "favorite_film": "Split",
+  "favorite_series": "", 
+  "favorite_food": "pizza",
+  "favorite_season": "summer", 
+  "country_visit": "Norway"
+}
