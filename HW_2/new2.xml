@@ -7,3 +7,10 @@
 	<pets>1cat</pets>
 	<salary>1000$</salary>
 </users>
+<hobbies> 
+	<film>Split</film>
+	<series></series>
+	<food>Pizza</food>
+	<season>Summer</season>
+	<country>Norway</country>
+</hobbies>
