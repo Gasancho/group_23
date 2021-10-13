@@ -1,0 +1,4 @@
+Gasanova Ramila Magammedovna
+age 29 
+cat 1
+salary 1000$
