@@ -1,0 +1,80 @@
+GitHub. HW_3
+
+- git branch
+- mkdir HW_3
+- cd HW_3
+
+1. На локальном репозитории сделать ветки для:
+- Postman - git branch Postman
+- Jmeter - git branch Jmeter
+- CheckLists - git branch CheckLists
+- Bug Reports - git branch Bug_Reports
+- SQL - git branch SQL
+- Charles - git branch Charles
+- Mobile testing - git branch Mobile_testing
+
+2. Запушить все ветки на внешний репозиторий
+- git push origin --all
+
+3. В ветке Bug_Reports сделать текстовый документ со структурой баг репорта
+- git checkout Bug_Reports
+- touch bg1.txt
+- vim bg1.txt
+- i
+Bug_id:
+Tittle:
+Environment:
+Precondition:
+STR:
+AR:
+ER:
+Attachments:
+- Esc:wq
+
+4. Запушить структуру багрепорта на внешний репозиторий
+- git add bg1.txt
+- git commit -m "add br1"
+- git push -u origin Bug_Reports
+
+5. Вмержить ветку Bug_Reports в Main
+- git checkout main
+- git merge Bug_Reports
+
+6. Запушить main на внешний репозиторий.
+- git push -u origin main
+
+7. В ветке CheckLists набросать структуру чек листа.
+- git checkout CheckLists
+- touch CHL1.txt
+- vim CHL1.txt
+- i
+Build:        
+Environment:  Windows 10
+Test date:    11.09.2021
+Tester:       Gasanova
+
+Test Type   Cheking     Result
+1.                      
+2.                       
+3.                      
+4.                      
+5.                        
+- Esc:wq
+
+8. Запушить структуру на внешний репозиторий
+- git add CHL1.txt
+- git commit -m "add CHL1"
+- git push -u origin CheckLists
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+- идем на страницу копии репозитория на GitHub
+- выбираем ветвь CheckLists и жмите кнопку "Compare & pull request"
+- cлева выбираем в какую ветку будут вливаться изменения в родительском репозитории "main", справа — CheckLists 
+- ввести название и описание изменений 
+- нажать на кнопку "Create pull request"
+- нажать на кнопку "Merge pull request"
+- нажать на кнопку "Confirm merge"
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+- git checkout main
+- git pull
