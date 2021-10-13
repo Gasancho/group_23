@@ -1,0 +1,11 @@
+Build:        
+Environment:  Windows 10
+Test date:    11.09.2021
+Tester:       Gasanova
+
+Test Type   Cheking     Result
+1.                      
+2.                       
+3.                      
+4.                      
+5.
